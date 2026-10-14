@@ -1,0 +1,8 @@
+# Profil navigateur (cookies, sessions de connexion)
+profile/
+# Environnement virtuel
+.venv/
+__pycache__/
+*.pyc
+# Captures d'écran de débogage
+screenshot.png

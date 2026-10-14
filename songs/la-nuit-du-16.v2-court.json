@@ -1,0 +1,13 @@
+{
+  "model": "v6-wild",
+  "title": "La Nuit du 16",
+  "lyrics": "[Intro: whispered, distant sirens]\nNuit du 16 au 17.\n\n[Verse 1]\nY a des profs qui manquent et des classes qui débordent\nDes gamins qui bloquent leur lycée parce qu'on leur ferme les portes\nDes préfets qui interdisent de s'asseoir devant l'école\nDemain, montre-moi l'arrêté qui interdit la foule\nUne guerre là-bas, Ormuz, et c'est ici qu'on paye la note\nLes marges triplent au raffinage, nous on grelotte\n\n[Chorus]\nCe soir personne dort\nLa ville retient son souffle\nDemain, quatorze heures, Bastille\nEt ce silence qui étouffe\n\n[Verse 2]\nLecornu sort les barils d'la réserve comme on sort l'argenterie\nTrois mille profs en urgence : pansement sur hémorragie\nÀ Lens, un gamin d'quinze ans, la main en sang sur l'bitume\nL'IGPN enquête, et l'enquête, on connaît l'costume\nIls appellent ça l'ordre, nous on appelle ça la peur\nCe soir elle est dans chaque cuisine, elle compte avec nous les heures\n\n[Chorus]\nCe soir personne dort\nLa ville retient son souffle\nDemain, quatorze heures, Bastille\nEt ce silence qui étouffe\n\n[Outro: whispered, sirens fading]\nCinq heures.\nLe jour se lève.\nPersonne n'a dormi.\n\n[End]",
+  "styles": "dark somber french rap, conscious, slow dark trap with boom bap drums, 75 BPM, minor key, ominous, cold, bleak, heavy tension, sparse melancholic piano, deep heavy 808 sub bass, sparse hi-hats, distant sirens, muffled street ambience, night, male vocals, deep tired weary voice, natural voice, mostly rapped, monotone near-spoken delivery, half-sung chorus, intimate close-mic dry vocals, clean modern production",
+  "exclude": "afro, afrobeat, afrotrap, afropop, amapiano, dancehall, reggaeton, pop, uplifting, happy, major key, anthemic, rock, metal, EDM, drop, drill, autotune, vocoder, female vocals, choir, bright synths, large reverb",
+  "vocal_gender": "male",
+  "max_mode": true,
+  "weirdness": 50,
+  "style_influence": 80,
+  "variety": 0,
+  "my_taste": false
+}
