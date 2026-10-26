@@ -207,6 +207,13 @@ l'utilisateur demande explicitement de la désactiver.
   Indiquer le compte des syllabes quand on montre les extraits.
 - Refrain répété en entier à chaque occurrence (ne pas écrire « x2 »).
 - Instrumental : `"lyrics": ""`.
+- **Prononciation (relecture obligatoire avant envoi)** : Suno ne comprend pas le sens, il
+  devine la prononciation. Constaté : « On travaille plus » chanté « plu » au lieu de
+  « pluss », ce qui inverse le sens. Relire les mots français à prononciation ambiguë et les
+  écrire phonétiquement dans `lyrics` : `pluss` (davantage), `toutt` (« tous » pronom),
+  `fiss` (le fils), etc. Forcer élisions et liaisons avec apostrophes/tirets (`j'traverse`,
+  `les-z-amis`). Si le phonétique ne passe pas, changer de mot. Signaler ces graphies à
+  l'utilisateur quand on montre les paroles.
 
 ## Étape 4 — Remplissage
 
@@ -225,3 +232,10 @@ veut). Ne pas terminer par « Je remplis le formulaire ? ».
 
 Si l'utilisateur donne un retour sur le résultat (ce qui a marché ou non), proposer de
 l'ajouter dans la mémoire des préférences pour les prochains morceaux.
+
+**Retouches du style ou des paroles : ne pas toucher aux curseurs.** Quand l'utilisateur
+demande seulement de modifier le style (voix, instruments, ambiance…) ou les paroles, ne
+changer QUE `styles` / `exclude` / `lyrics` (et `title` si besoin) : laisser `weirdness`,
+`style_influence` et `variety` à leurs valeurs actuelles. Ne les modifier que si
+l'utilisateur le demande explicitement ; on peut au plus suggérer un réglage dans la
+réponse, sans l'appliquer.
