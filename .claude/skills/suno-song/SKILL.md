@@ -98,6 +98,11 @@ Règles :
   dosages différents), puis demander lequel garder (ou quel mélange) avant d'écrire le texte
   complet. Ne jamais sauter cette étape, sauf si l'utilisateur a explicitement demandé de
   désactiver les extraits.
+  **Prévisualisation obligatoire** : chaque fois qu'on propose des textes au choix (extraits,
+  titres, refrains, directions de style…), les poser via `AskUserQuestion` en mettant le
+  texte complet de chaque option dans le champ `preview` (avec le compte de syllabes), et
+  dans une question à choix unique (le `preview` ne marche pas en `multiSelect`). Poser les
+  autres questions (multiSelect) dans un appel séparé.
 - Registre de langue (soutenu, courant, familier, argot)
 - Rimes (riches, simples, libres) et densité (phrases courtes vs denses type rap)
 - Mots, noms, références ou phrase-clé à inclure
@@ -204,6 +209,10 @@ l'utilisateur demande explicitement de la désactiver.
 - Instrumental : `"lyrics": ""`.
 
 ## Étape 4 — Remplissage
+
+**Enchaîner directement, sans demander de validation** : dès que le style et les paroles
+sont écrits, envoyer dans Suno dans le même tour (l'utilisateur ajustera après coup s'il
+veut). Ne pas terminer par « Je remplis le formulaire ? ».
 
 1. Montrer à l'utilisateur le titre, le style et les paroles.
 2. Écrire `songs/<slug>.json` (format documenté en tête de `fill.py`).
