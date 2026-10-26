@@ -123,12 +123,13 @@ réellement d'apparaître.
 **J. Réglages Suno**
 - **Modèle** — NE PAS poser de question : le choisir soi-même d'après le brief et
   l'annoncer (avec une demi-phrase de justification) dans le récapitulatif de l'étape 2 :
-  - `v6` (par défaut) : polyvalent et le plus abouti → genre identifiable, rendu propre
-  - `v6-wild` : expérimental → fusions improbables, sons bizarres, structures inhabituelles,
-    direction de style « audacieuse » choisie, weirdness élevée
+  - `v6-wild` (par défaut, préférence de l'utilisateur) : expérimental, à utiliser pour tous
+    les morceaux sauf exception ci-dessous
+  - `v6` : seulement si l'utilisateur le demande, ou s'il signale que `v6-wild` dérive trop
+    du genre demandé (rendu plus sage et plus propre)
   - `v6-mini` : uniquement si l'utilisateur parle de brouillon / test / économiser des crédits
-  - Comparaison A/B seulement si l'utilisateur la demande : remplir en `v6`, il clique Create,
-    puis relancer `fill.py` avec uniquement `{"model": "v6-wild"}` pour un 2ᵉ Create.
+  - Comparaison A/B seulement si l'utilisateur la demande : remplir en `v6-wild`, il clique
+    Create, puis relancer `fill.py` avec uniquement `{"model": "v6"}` pour un 2ᵉ Create.
 - **Curseurs et options** — même règle que le modèle : pas de question, les régler soi-même
   d'après le brief et les annoncer dans le récapitulatif (l'utilisateur peut ajuster).
   Paliers affichés par Suno (relevés sur l'interface) et usage :
