@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 # Captures d'écran de débogage
 screenshot.png
+# Morceaux (perso, jamais versionnés)
+songs/
